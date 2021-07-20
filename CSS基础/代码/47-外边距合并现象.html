@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>47-外边距合并现象</title>
+    <style>
+        span{
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            border:1px solid black;
+        }
+        div{
+            height: 100px;
+            border:1px solid black;
+        }
+        .hezi1{
+            margin-right: 50px;
+        }
+        .hezi2{
+            margin-left: 100px;
+        }
+        .box1{
+            margin-bottom: 50px;
+        }
+        .box2{
+            margin-top: 100px;
+        }
+    </style>
+</head>
+<body>
+<span class="hezi1">我是span</span>
+<span class="hezi2">我是span</span>
+<div class="box1">我是div</div>
+<div class="box2">我是div</div>
+</body>
+</html>

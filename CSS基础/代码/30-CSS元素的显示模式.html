@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>30-CSS元素的显示模式</title>
+    <style>
+        div{
+            background: red;
+            width: 200px;
+            height: 200px;
+        }
+        span{
+            background: green;
+            width: 200px;
+            height: 200px;
+        /*    设置宽高无用*/
+        }
+        img{
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+
+<!--
+容器级标签
+div h ul ol dl li dt dd ...
+文本级标签
+span p buis strong em ins del ...
+
+块级元素
+p div h ul ol dl li dt dd ...
+行内元素
+span buis strong em ins del b...
+-->
+<div>我是div</div>
+<p>我司段落</p>
+<h1>我是标题</h1>
+<hr>
+<span>我是span</span>
+<b>我是加粗</b>
+<strong>我是强调</strong>
+<hr>
+<img src="images/1.jpg" alt="">
+<img src="images/1.jpg" alt="">
+</body>
+</html>

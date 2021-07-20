@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>26-CSS三大特性之优先级</title>
+    <style>
+        /*
+        li{
+        color: blue;
+        }
+        ul{
+            color: red;
+        }
+
+        p{
+            color: blue;
+        }
+        p{
+            color: red;
+        }
+
+         */
+        #identity{
+            color: purple;
+        }
+        .para{
+            color: white;
+        }
+        p{
+            color: green;
+        }
+        *{
+            color: blue;
+        }
+        li{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<ul>
+    <li>
+        <p id="identity" class="para">我是段落</p>
+    </li>
+</ul>
+</body>
+</html>

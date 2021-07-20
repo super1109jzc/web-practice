@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>21-属性选择器</title>
+    <style>
+        img[alt |=abc]{
+            color: red;
+        }
+        img[alt $=abc]{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+<img src="" alt="abcdef">
+<img src="" alt="abc-www">
+<img src="" alt="abc ppp">
+<img src="" alt="defabc">
+<img src="" alt="ppp abc">
+<img src="" alt="www-abc">
+<img src="" alt="qq">
+<img src="" alt="yy">
+</body>
+</html>

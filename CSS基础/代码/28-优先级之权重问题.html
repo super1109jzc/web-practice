@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>28-优先级之权重问题</title>
+    <style>
+        /*.box1 .box2{
+            color: green;
+        }
+        div ul li p{
+            color: blue;
+        }*/
+        #identity1 ul p{
+            color: blue;
+        }
+        #identity1 ul li p{
+            color: green;
+        }
+    </style>
+</head>
+<body>
+<div id="identity1" class="box1">
+    <ul>
+        <li>
+            <p id="identity2" class="box2">我是段落</p>
+        </li>
+    </ul>
+</div>
+</body>
+</html>
